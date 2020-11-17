@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.contenedor{
+    width: 500px;
+    margin: auto;
+}
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.header-name-left{
+    display: flex;
+}
+.header-name-left i {
+    margin-right: 10px;
+}
+.post-img img{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+.post-coment-icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.post-coment-icons i{
+    margin-right: 10px;
+}
+.post-coment p{
+    margin: 10px;
+}
+span{
+    font-weight: bold;
+}
